@@ -8,6 +8,7 @@ let aws = require('aws-sdk');
 let uuid = require('node-uuid');
 let s3 = new aws.S3();
 
+// バケット名を取得する
 s3.listBuckets(function(err, data) {
   if(!err) {
     for (var bucket in data['Buckets']) {
