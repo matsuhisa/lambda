@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "aws-sdk": ">= 2.0.9",
+    "node-uuid": ">= 1.4.0",
     "gm": ">= 1.9.0",
     "imagemagick": ">= 0.0.1",
     "async": ">= 1.0.0"

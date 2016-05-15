@@ -19,6 +19,6 @@ const HEIGHT = 300;
 const WIDTH =  300;
 
 im.convert([in_put_file_name, '-resize', WIDTH+'x'+HEIGHT, out_put_file_name], function(err, stdout){
-  if (err) throw err;
-  console.log('stdout:', stdout);
+  //if (err) throw err;
+  //console.log('stdout:', stdout);
 });
